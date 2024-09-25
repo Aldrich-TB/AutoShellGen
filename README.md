@@ -1,6 +1,6 @@
 # AutoShellGen
 
-Automated Reverse Shell Command Generator by IP and Port.
+Local Offline Tool: Automated Reverse Shell Command Generator by IP and Port.
 
 ## Features
 
@@ -20,18 +20,18 @@ Open index.html Using a Local Browser
 
 ## Old Version Tools
 
-![img.png](img.png)
+![img.png](./img/img1.png)
 
 ## New Version Tools
 * Automated Reverse Shell Command Generation and Server Listening Setup
 
-![img_3.png](img_3.png)
+![img_3.png](./img/img2.png)
 
 * Base64 Encoding of Commands for Cross-Environment Execution
 
-![img_2.png](img_2.png)
+![img_2.png](./img/img3.png)
 
 * Command Execution Through DNSLog Data Exfiltration
 
-![img_1.png](img_1.png)
+![img_1.png](./img/img4.png)
 

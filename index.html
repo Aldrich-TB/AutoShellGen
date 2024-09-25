@@ -1,28 +1,22 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <title>AutoShellGen</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="favicon.ico" type="image/ico" sizes="16x16">
-    <link href="assets/bootstrap.min.css" rel="stylesheet">
-    <script src="assets/jquery-3.5.1.slim.min.js"></script>
-    <script src="assets/popper-1.16.1.min.js"></script>
-    <script src="assets/bootstrap-4.5.2.min.js"></script>
-    <script src="assets/axios.min.js"></script>
-    <link rel="stylesheet" href="css/dark-mode.css">
-    <link rel="stylesheet" href="css/light-mode.css">
-    <link rel="stylesheet" href="css/meme-mode.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/ico" sizes="16x16">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/popper-1.16.1.min.js"></script>
+    <script src="assets/js/bootstrap-4.5.2.min.js"></script>
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
     <meta name="title" content="AutoShellGen">
-
     <style>
         @media (max-width: 767px) {
             #reverse-shell-selection {
                 max-height: 290px;
             }
         }
-
         @media (min-width: 768px) {
             #reverse-shell-selection {
                 max-height: 520px;
@@ -33,14 +27,11 @@
 
 <body class="bg-black">
 <div class="container d-flex flex-column vh-100">
-
     <!-- Header -->
     <div class="mb-auto row justify-content-center mb-5">
         <h2 class="rainbow">AutoShellGen</h2>
     </div>
-
     <div class="row">
-
         <!-- IP & Port Configuration -->
         <div class="col-12 col-md-6 mb-4">
             <div class="card shadow h-100">
@@ -48,7 +39,6 @@
                     <h5 class="card-title mb-0">
                         <b>IP & Port</b>
                     </h5>
-
                     <!-- card-text -->
                     <div class="card-text h-100">
                         <form class="row justify-content-center align-items-center h-100">
@@ -114,9 +104,7 @@
                     </div>
 
                     <h5 class="card-title"><b>Listener</b></h5>
-
                     <div class="card-text">
-
                         <!-- Command -->
                         <div class="row justify-content-center">
                             <div class="col-auto position-relative" style="min-width: 15vw">
@@ -149,7 +137,6 @@
             </div>
         </div>
         <!-- /listener -->
-
     </div>
 
     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -231,7 +218,6 @@
 
                             <!-- Right column -->
                             <div class="col-12 col-md-9 d-flex flex-column middle-card">
-
 
                                 <!-- Reverse Shell Command -->
                                 <div class="row flex-grow-1">
@@ -509,6 +495,15 @@
                                 </div>
 
                                 <div class="row justify-content-end mr-1">
+                                    <!-- Auto-copy switch -->
+                                    <!-- <div class="custom-control custom-switch mt-2 mr-3" data-toggle="tooltip"
+                                        title="Auto-copy to clipboard when selecting a new shell type">
+                                        <input id="auto-copy-switch" class="custom-control-input"
+                                            type="checkbox" checked>
+                                        <label for="auto-copy-switch"
+                                            class="custom-control-label small pr-2 pb-1"
+                                            style="padding-top: 2px">Auto-copy</label>
+                                    </div> -->
 
                                     <!-- Copy button -->
                                     <button id="copy-dnslog-command" data-toggle="tooltip"
@@ -529,16 +524,10 @@
 </div>
 
     <!-- RSG data -->
-    <script src="js/data.js"></script>
+    <script src="core/data.js"></script>
 
-    <!-- RSG raw link generator -->
-    <script src="js/raw-link.js"></script>
-
-    <!-- Light switch -->
-    <script src="js/light-mode-switch.js"></script>
-
-    <!-- Main js -->
-    <script src="js/script.js"></script>
+    <!-- Main core -->
+    <script src="core/script.js"></script>
 </body>
 
 </html>
