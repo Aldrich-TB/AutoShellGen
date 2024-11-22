@@ -9,6 +9,8 @@ Local Offline Tool: Automated Reverse Shell Command Generator by IP and Port.
 
 [Live Demo][web-url] / [Feedback](https://github.com/Aldrich-TB/AutoShellGen/issues)
 
+Forked by [reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
+
 [web-url]: https://aldrich-tb.github.io/AutoShellGen/
 [download-url]: https://github.com/Aldrich-TB/AutoShellGen/releases
 [Web-image]: https://img.shields.io/badge/Web-HTML-orange?logo=microsoftedge
